@@ -1,4 +1,4 @@
-import getApplicant from '../src/make-applicant.js/index.js';
+import getApplicant from '../src/make-applicant.js';
 const test = QUnit.test;
 
 
