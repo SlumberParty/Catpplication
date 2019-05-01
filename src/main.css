@@ -4,7 +4,7 @@
         background-image: url("../assets/e6f2xkh2f4z11.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: 110%;
+        background-size: 100%;
         font-family: Acme;
       }
 
@@ -15,8 +15,8 @@
         text-shadow: 0 0 10px #FFFFFF, 2px 2px 8px #FFC303;
       }
 
-      main {
+      div {
           text-align: center;
           font-size: 30pt;
-          text-shadow: 0 0 10px #FFFFFF, 2px 2px 8px #FFC303;
+          text-shadow: 0 0 10px #FFFFFF, 2px 2px 8px #FFC303; 
       }

@@ -1,2 +1,2 @@
-import './get-applicant.test.js';
+import './make-applicant.test.js';
 import './applicant-api.test.js';

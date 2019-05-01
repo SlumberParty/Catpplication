@@ -1,4 +1,4 @@
-import getApplicant from '../src/get-product';
+import getApplicant from '../src/make-applicant.js/index.js';
 const test = QUnit.test;
 
 
