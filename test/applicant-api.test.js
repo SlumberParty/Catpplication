@@ -1,8 +1,11 @@
 import applicantApi from '../src/applicant-api.js';
 const test = QUnit.test;
 
+applicantApi.storage = sessionStorage;
+const testStorage = sessionStorage;
+
 test('round-trip applicant', (assert) => {
-    localStorage.removeItem('applicants');
+    testStorage.removeItem('applicants');
     //Arrange
     const applicant = { name: 'cat' };
 
@@ -15,7 +18,7 @@ test('round-trip applicant', (assert) => {
 });
 
 test('no applicants in local storage returns empty array', assert => {
-    localStorage.removeItem('applicants');
+    testStorage.removeItem('applicants');
     const expected = [];
 
     const applicants = applicantApi.getAll();
@@ -25,7 +28,7 @@ test('no applicants in local storage returns empty array', assert => {
 });
 
 test('two saves return array with two items', (assert) => {
-    localStorage.removeItem('applicants');
+    testStorage.removeItem('applicants');
 
     //arrange
     const applicant1 = { name: 'cat1' };

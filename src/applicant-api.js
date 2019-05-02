@@ -1,4 +1,5 @@
 const applicantApi = {
+    storage: localStorage,
     save(applicant) {
         //get our applicant array
         const applicants = applicantApi.getAll();
@@ -7,7 +8,7 @@ const applicantApi = {
         // serialize to json
         const json = JSON.stringify(applicants);
         // save to local storage
-        localStorage.setItem('applicants', json);
+        applicantApi.storage.setItem('applicants', json);
     },
     get() {
         // use get all to fetch applicants
@@ -18,7 +19,7 @@ const applicantApi = {
     },
     getAll() {
         // get from local storage
-        const json = localStorage.getItem('applicants');
+        const json = applicantApi.storage.getItem('applicants');
         //deserialize to object
         let applicants = JSON.parse(json);
         if(!applicants) {
