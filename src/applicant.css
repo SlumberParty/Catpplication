@@ -1,0 +1,22 @@
+body {
+    background-image: none;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: left;
+    text-shadow: none;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+dt, dd {
+    text-shadow: none;
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 4em;
+}

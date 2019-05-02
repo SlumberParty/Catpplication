@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+    
+    body {
+        background-image: url("../assets/e6f2xkh2f4z11.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        font-family: Acme;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 50pt;
+        text-shadow: 0 0 10px #FFFFFF, 2px 2px 8px #FFC303;
+      }
+
+      div {
+          text-align: center;
+          font-size: 30pt;
+          text-shadow: 0 0 10px #FFFFFF, 2px 2px 8px #FFC303; 
+      }
+
+      
