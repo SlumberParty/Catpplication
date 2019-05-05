@@ -12,3 +12,7 @@ button {
 button:hover {
     background: rgb(255, 217, 0);
 }
+
+fieldset {
+    margin-top: 35px;
+}

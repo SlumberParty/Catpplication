@@ -2,8 +2,8 @@
     
     body {
         background-image: url("../assets/e6f2xkh2f4z11.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-repeat: inherit
+        background-attachment;
         background-size: 100%;
         font-family: Acme;
       }
@@ -13,6 +13,10 @@
         margin-top: 150px;
         font-size: 50pt;
         text-shadow: 0 0 10px #FFFFFF, 2px 2px 8px #FFC303;
+      }
+
+      h2 {
+        font-size: 20pt;
       }
 
       div {
