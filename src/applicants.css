@@ -1,28 +1,28 @@
-div {
-    background-image: none;
-    background-color: black;
-    color: white;
-}
-
 table {
     width: 100%;
-    max-width: 750px;
+    max-width: 200px;
     margin: auto;
     border-collapse: collapse;
     border-spacing:5em;
-    margin-top: 300px;
 }
 
 thead {
     font-weight: bolder;
     color: white;
-    background: black;
+    background: #FFC303;
+    text-align: center;
 }
 
 tbody tr:nth-child(even) {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(249, 179, 2, 0.303);
+
 }
 
 td {
     padding: 8px 5px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
 }

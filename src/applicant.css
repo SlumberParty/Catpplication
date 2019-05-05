@@ -1,11 +1,9 @@
 body {
     background-image: none;
-    background-color: black;
-    color: white;
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     text-shadow: none;
 }
 
@@ -18,5 +16,5 @@ dt, dd {
     text-shadow: none;
     display: inline-block;
     padding: 8px 10px;
-    font-size: 4em;
+    font-size: 2em;
 }

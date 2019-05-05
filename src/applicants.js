@@ -10,21 +10,19 @@ for(let i = 0; i < applicants.length; i++) {
     const tr = document.createElement('tr');
 
     const nameCell = document.createElement('td');
-    nameCell.textContent = applicant.name;
+    const link = document.createElement('a');
+    const searchParams = new URLSearchParams();
+
+    searchParams.set('name', applicant.name);
+  
+    link.href = 'applicant.html?' + searchParams.toString();
+
+    link.textContent = applicant.name;
+
+    nameCell.appendChild(link);
+
     tr.appendChild(nameCell);
-
-    const meowTimeCell = document.createElement('td');
-    meowTimeCell.textContent = applicant.meowTime;
-    tr.appendChild(meowTimeCell);
-
-    const dieCell = document.createElement('td');
-    dieCell.textContent = applicant.die;
-    tr.appendChild(dieCell);
-
-    const livesCell = document.createElement('td');
-    livesCell.textContent = applicant.lives;
-    tr.appendChild(livesCell);
-
+    
     tbody.appendChild(tr);
     
 }
