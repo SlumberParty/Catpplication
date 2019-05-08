@@ -1,0 +1,20 @@
+body {
+    background-image: none;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: none;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+dt, dd {
+    text-shadow: none;
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 2em;
+}

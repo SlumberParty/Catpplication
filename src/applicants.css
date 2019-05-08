@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing:5em;
+}
+
+thead {
+    font-weight: bolder;
+    color: white;
+    background: #FFC303;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background: rgba(249, 179, 2, 0.303);
+
+}
+
+td {
+    padding: 8px 5px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}

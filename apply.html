@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apply</title>
+    <link rel="stylesheet" href="src/apply.css">
+    <link rel="stylesheet" href="src/main.css">
+</head>
+<div>
+<body>
+        <h1>
+            Catpplication Time!
+        </h1>
+
+    <main>
+        <form id="catpplication">
+            <section>
+                    <label for="name" class="your-name">Your Name:</label>
+                    <input type="text" class="name" name="name" placeholder="Your Name Here" required>
+            </section>
+            
+            <section>
+                <h3>Meow is the time for feline fine?</h3>
+                <input type="radio" name="meow-time" id="yes" value="yes">
+                <label for="yes">Purrfect Timing</label>
+                <input type="radio" name="meow-time" id="no" value="no">
+                <label for="yes">Furrget about it</label>
+            </section>
+            
+            <section>
+                <fieldset>
+                    <legend>
+                        Frisky business below
+                    </legend>
+                    <label for="die">What's the likelihood you would die for your cat?</label>
+                    <input type="range" name="die" id="die" min="1" max="10">
+                    <br>
+                    <br>
+                    <label for="lives">How many lives does a cat have</label>
+                    <input type="number" name="lives">
+                </fieldset>
+            </section>
+            
+            <section>
+                <h3>We believe in mew!</h3>
+                <button>cat me</button>
+            </section>
+        </form>
+    </main>
+    <script type="module" src="./src/apply.js"></script>
+</body>
+</div>
+</html>
