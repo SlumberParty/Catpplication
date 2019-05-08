@@ -7,12 +7,12 @@ const meowTime = document.getElementById('meow-time');
 const die = document.getElementById('die');
 const lives = document.getElementById('lives');
 
-// get the applicant name
-// const searchParams = new URLSearchParams(window.location.search);
-// const id = searchParams.get('name');
+//get the applicant name
+const searchParams = new URLSearchParams(window.location.search);
+const id = searchParams.get('name');
 
 //get our applicant from the api
-const applicant = applicantApi.get();
+const applicant = applicantApi.get(id);
 
 // mediate data into the element
 name.textContent = applicant.name;
